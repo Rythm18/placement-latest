@@ -1,6 +1,9 @@
-import React from 'react'
-import './header.module.css'
+import '../Css/style.css'
+import '../Css/board.css'
+
 import logo from '../../assets/images/logo.png'
+
+
 export function Header(){
     return(
         <div>

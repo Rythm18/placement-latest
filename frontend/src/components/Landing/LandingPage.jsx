@@ -1,6 +1,7 @@
-import { Header } from "./partials/header";
-import { Footer } from "./partials/footer";
+import { Header } from "../partials/Header";
+import { Footer } from "../partials/Footer";
 import { Banner } from "./Banner";
+
 export function LandingPage(){
     return(
         <div>
