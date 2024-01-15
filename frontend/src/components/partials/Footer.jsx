@@ -1,5 +1,5 @@
-
-import './footer.module.css';
+import '../Css/style.css'
+import '../Css/board.css'
 
 export function Footer() {
     return (

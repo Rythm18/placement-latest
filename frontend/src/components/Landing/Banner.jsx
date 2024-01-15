@@ -1,6 +1,7 @@
-import React from "react"
-import './partials/header.module.css'
-import bg from '../assets/images/about-us.webp'
+import '../Css/style.css'
+import '../Css/board.css'
+
+import bg from '../../assets/images/about-us.webp'
 
 export function Banner(){
     return (
