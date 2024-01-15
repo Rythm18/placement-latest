@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    /* Background Color */
+    --primary-color: #4458dc;
+    --scroll-bar: #fff;
+    --secondary-color: #854fee;
+    --bg-white: #fff;
+    --bg-light: #faf8ff;
+    --bg-black: #000;
+    --bg-gray: #eee;
+    --gradient: linear-gradient(to right, #4458dc 0%, #854fee 100%), radial-gradient(circle at top left, #4458dc, #854fee);
+
+    /* Text Color */
+    --primary-text: #4458dc;
+    --secondary-text: #854fee;
+    --text-white: #fff;
+    --text-black: #000;
+    --text-gray: #777;
+
+    /* Font Family */
+    --primary-font: 'Rubik', sans-serif;
+    --secondary-font: 'Roboto', sans-serif;
+}
+
+body {
+    font-family: var(--secondary-font);
+    width: 100%;
+    background-image: url('/frontend/src/assets/images/body-bg.png.webp');
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
