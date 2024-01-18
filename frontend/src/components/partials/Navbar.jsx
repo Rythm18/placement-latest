@@ -1,10 +1,9 @@
-import '../Css/style.css'
-import '../Css/board.css'
+import '../css/Navbar.css'
 
 import logo from '../../assets/images/logo.png'
 
 
-export function Header(){
+export function Navbar(){
     return(
         <div>
             <header className="header_wrapper">

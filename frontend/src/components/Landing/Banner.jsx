@@ -1,7 +1,7 @@
-import '../Css/style.css'
-import '../Css/board.css'
+import '../css/Banner.css'
+import '../css/Responsive.css'
 
-import bg from '../../assets/images/about-us.webp'
+import bg from '../../assets/images/home-right.webp'
 
 export function Banner(){
     return (
