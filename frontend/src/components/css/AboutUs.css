@@ -1,0 +1,68 @@
+/* 4 About */
+.about_wrapper .single-logo-item {
+    width: 100%;
+    height: 6.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 0.0625rem solid #eee;
+    box-shadow: none;
+    -webkit-transition: all .4s ease 0s;
+    -moz-transition: all .4s ease 0s;
+    -o-transition: all .4s ease 0s;
+    transition: all .4s ease 0s;
+}
+
+.about_wrapper .single-logo-item:hover {
+    border: 0.0625rem solid transparent;
+    box-shadow: 0 0.5rem 1.875rem rgb(118 85 225 / 15%);
+}
+
+.about_wrapper .client-info {
+    padding: 1.5625rem 1.875rem;
+    background: #faf8ff;
+    position: relative;
+    margin-top: 1.5625rem;
+}
+
+.about_wrapper .client-info:before {
+    content: '';
+    position: absolute;
+    top: -1.5625rem;
+    left: -3.4375rem;
+    background: url('../../assets/images/client-info.webp');
+    background-repeat: no-repeat;
+    height: 10.9375rem;
+    width: 10.9375rem;
+}
+
+.client-info .large {
+    color: #854fee;
+    font-family: 'Rubik', sans-serif;
+    font-size: 6.25rem;
+    font-weight: 700;
+    position: relative;
+    z-index: 9;
+}
+
+.client-info .smll {
+    text-align: left;
+    color: #000;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.25rem;
+    margin-left: 1.25rem;
+    font-weight: 500;
+}
+
+.call-now span {
+    font-size: 3.75rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.call-now p {
+    color: #854fee;
+    text-transform: uppercase;
+    margin-bottom: 0.3125rem;
+}
